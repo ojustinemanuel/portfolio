@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<link rel="stylesheet" type="text/css" href="portfolio-style.css">
+	<title>My Portfolio</title>
+
+	<!--font style-->
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="topnav" id="myTopnav">
+	  <a href="#home" class="active">Home</a>
+	   <a href="#about">About</a>
+	   <a href="#project">Projects</a>
+	  <a href="#contact">Contact</a>
+	  
+	  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+	</div>
+
+	<script type="text/javascript">
+	function myFunction() {
+    var x = document.getElementById("myTopnav");
+    	if (x.className === "topnav") {
+       	 x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+	</script>
+
+	<!--landing-page-->
+
+	<div class="container-fluid landing-page" id="home">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 intro-part">
+			<h1>Oscar Justine C. Manuel</h1>
+			<h2>Full Stack Developer</h2>
+			<p>-Turning ideas into websites-</p>
+			</div>
+		</div>
+	</div> <!--first-div--> 
+
+	<div class="container-fluid" id="filler-about-page">
+	</div>
+
+	<!--about-page-->
+
+	<div class="container-fluid about-page">
+		<br><br>
+		<h1>About Me</h1>
+		<br>
+
+			<div class="row">
+				<div class="col-md-6 about-section" id="about">
+					<img class="img-responsive" id="profile-picture" src="profile-picture.jpg" alt="Profile Picture" height="150px" width="150px"> 
+					<br>
+					<p>A former real time analyst with one of the call centers in the Philippines for 2 years and took an opportunity in learning web design by enrolling himself with a 3-month extensive coding bootcamp.</p>
+					<br>
+					<a target="_blank" href="https://drive.google.com/file/d/15r9ZtTtBmatOFu3P_OMkjBP0rw6e_28d/view?usp=sharing">Click HERE for Resume</a>
+				</div>
+
+				<div class="col-md-6">
+					<h3><u>Web Development Technologies</u></h3>
+					<ul>
+					<li>HTML/CCS: 7/10</li>
+					<li>Bootstrap: 7/10</li>
+					<li>JavaScript/jQuery: 6/10</li>
+					<li>PHP/mySQL: 6/10</li>
+					<li>Laravel: 6/10</li>
+					</ul>
+
+					<h3><u>Trainings</u></h3>
+					<br>
+					<h5>Personal Empowerment Program</h5>
+					<li>Personal Visioning</li>
+					<li>Embracing Positive Change</li>
+					<li>Time and Stress Management</li>
+					<li>Exceeding Customer Expectations</li>
+					<li>Confidence Building -Fostering.</li>
+					<br>
+					<h5>IT Essentials (Advance MS Excel)</h5>
+					
+				</div>
+			</div> 
+	</div><!--about-section-div-->
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* nav bar */
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    color: white;
+    position: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: black;
+    color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+  	position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* landing page section*/
+
+.landing-page {
+    background-image: url("background-landing-page.jpg");
+   	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	height: 900px;
+}
+
+.intro-part {
+	text-align: center;
+	margin-top: 20%;
+	border: 5px solid white;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	font-size: 15px;
+
+	
+}
+
+.intro-part > h1 {
+	font-size: 30px;	
+}
+
+/*filler-about-page*/
+
+#filler-about-page {
+	background-color: black;
+	height: 900px;
+}
+
+
+/* about-page*/
+
+.about-page {
+	background-image: url("background-about-page.jpg");
+   	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	height: 900px;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+}
+
+.about-section {
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+	font-size: 15px;
+	padding-top: 5%;
+}
+
+#profile-picture {
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-section > a  {
+	text-align: center;
+}
+
+
