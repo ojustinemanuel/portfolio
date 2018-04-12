@@ -72,12 +72,12 @@
 /* landing page section*/
 
 .landing-page {
-    background-image: url("background-landing-page.jpg");
+    background-image: url("background-landing-page.png");
    	background-position: center center;
-	background-repeat:  no-repeat;
-	background-attachment: fixed;
-	background-size:  cover;
-	height: 900px;
+  	background-repeat:  no-repeat;
+  	background-attachment: fixed;
+  	background-size:  cover;
+  	height: 900px;
 }
 
 .intro-part {
@@ -97,9 +97,9 @@
 
 /*filler-about-page*/
 
-#filler-about-page {
+.filler {
 	background-color: black;
-	height: 900px;
+	height: 450px;
 }
 
 
@@ -107,7 +107,7 @@
 
 .about-page {
 	background-image: url("background-about-page.jpg");
-   	background-position: center center;
+  background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
 	background-size:  cover;
@@ -133,4 +133,20 @@
 	text-align: center;
 }
 
+/* project-page */
+.project-page {
+  background-image: url("background-project-page.jpg");
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  height: 900px;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+
+.thumbnail .caption{
+  background-color: black;
+  color: white;
+}
 
