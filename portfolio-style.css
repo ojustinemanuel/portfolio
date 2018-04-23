@@ -150,7 +150,7 @@
 }
 
 .thumbnail {
-  background-color: black;
+  background-color: black !important;
 }
 
 .thumbnail .caption {
