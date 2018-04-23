@@ -145,11 +145,22 @@
   color: white;
 }
 
+.project-section {
+  height: 250em;
+}
+
+.thumbnail {
+  background-color: black;
+}
 .thumbnail .caption {
   background-color: black;
   color: white;
   text-align: center;
   height: 300px;
+}
+
+.caption > p {
+  height: 8em;
 }
 
 .project-picture {
